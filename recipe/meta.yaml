@@ -21,8 +21,8 @@ test:
 
 about:
   home: https://github.com/cylc/cylc-ui
-  license: GPL-2.0+
-  license_family: GPL2
+  license: GPL-3.0
+  license_family: GPL
   license_file: LICENSE
   summary: 'Cylc Web UI'
 
