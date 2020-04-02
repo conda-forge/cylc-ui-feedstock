@@ -11,7 +11,7 @@ source:
   folder: cylc-ui
 
 build:
-  number: 0
+  number: 1
   # Cylc Flow is Linux only. Cylc UI could be built on Windows/Mac/etc, but we are assuming the whole build env to be Linux
   skip: True  # [not linux]
 
@@ -33,4 +33,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - hjoliver
     - kinow
+    - oliver-sanders
