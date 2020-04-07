@@ -11,7 +11,7 @@ source:
   folder: cylc-ui
 
 build:
-  number: 1
+  number: 2
   # Cylc Flow is Linux only. Cylc UI could be built on Windows/Mac/etc, but we are assuming the whole build env to be Linux
   skip: True  # [not linux]
 
@@ -21,8 +21,8 @@ test:
 
 about:
   home: https://github.com/cylc/cylc-ui
-  license: GPL-2.0+
-  license_family: GPL2
+  license: GPL-3.0
+  license_family: GPL
   license_file: LICENSE
   summary: 'Cylc Web UI'
 
