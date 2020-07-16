@@ -3,9 +3,9 @@ About cylc-ui
 
 Home: https://github.com/cylc/cylc-ui
 
-Package license: GPL-2.0+
+Package license: GPL-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Cylc Web UI
 

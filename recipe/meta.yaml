@@ -1,5 +1,5 @@
 {% set name = "cylc-ui" %}
-{% set version = "0.1" %}
+{% set version = "0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/cylc/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}-dist.zip
-  sha256: 639b18bb7526914203ffdc6bd80f2b580683c63e3d94c4b92d1bb00355824b44
+  sha256: ab3c7e1d624e8e29a23ee5523ab94c85b76a2226a329bef73be94108cdce8969
   folder: cylc-ui
 
 build:
-  number: 2
+  number: 0
   # Cylc Flow is Linux only. Cylc UI could be built on Windows/Mac/etc, but we are assuming the whole build env to be Linux
   skip: True  # [not linux]
 
