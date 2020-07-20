@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/cylc/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}-dist.zip
-  sha256: ab3c7e1d624e8e29a23ee5523ab94c85b76a2226a329bef73be94108cdce8969
+  sha256: 0c60829e76ab7820a6ef3c0394b05ea3390648234a9e5da97470892bc99bb897
   folder: cylc-ui
 
 build:
-  number: 0
+  number: 1
   # Cylc Flow is Linux only. Cylc UI could be built on Windows/Mac/etc, but we are assuming the whole build env to be Linux
   skip: True  # [not linux]
 
