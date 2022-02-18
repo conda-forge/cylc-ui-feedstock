@@ -27,7 +27,9 @@ about:
   summary: Cylc Web UI
 
   description: |
-    Cylc Web UI.
+    Cylc UI is bundled with the cylc-uiserver package.
+    You should not need to install this package separately.
+
   doc_url: https://github.com/cylc/cylc-ui
   dev_url: https://github.com/cylc/cylc-ui
 
