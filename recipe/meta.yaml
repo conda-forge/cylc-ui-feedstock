@@ -1,5 +1,5 @@
 {% set name = "cylc-ui" %}
-{% set version = "0.5.0" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cylc/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}-dist.zip
-  sha256: 997524576e402e4beb761456d7c147a9c9a43a237c7e351c597208f97f46b4ef
+  sha256: f3c0193baefb12affb46cc98e47ef081d339022b6aa74b9b0a36391ce848c255 
   folder: cylc-ui
 
 build:
@@ -27,12 +27,13 @@ about:
   summary: Cylc Web UI
 
   description: |
-    Cylc Web UI.
+    Cylc UI is bundled with the cylc-uiserver package.
+    You should not need to install this package separately.
+
   doc_url: https://github.com/cylc/cylc-ui
   dev_url: https://github.com/cylc/cylc-ui
 
 extra:
   recipe-maintainers:
     - hjoliver
-    - kinow
     - oliver-sanders
