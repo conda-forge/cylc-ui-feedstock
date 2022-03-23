@@ -5,7 +5,7 @@ Home: https://github.com/cylc/cylc-ui
 
 Package license: GPL-3.0-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cylc-ui-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cylc-ui-feedstock/blob/main/LICENSE.txt)
 
 Summary: Cylc Web UI
 
@@ -13,7 +13,8 @@ Development: https://github.com/cylc/cylc-ui
 
 Documentation: https://github.com/cylc/cylc-ui
 
-Cylc Web UI.
+Cylc UI is bundled with the cylc-uiserver package.
+You should not need to install this package separately.
 
 
 Current build status
@@ -27,8 +28,8 @@ Current build status
     <td>
       <details>
         <summary>
-          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9126&branchName=master">
-            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cylc-ui-feedstock?branchName=master">
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9126&branchName=main">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cylc-ui-feedstock?branchName=main">
           </a>
         </summary>
         <table>
@@ -36,8 +37,8 @@ Current build status
           <tbody><tr>
               <td>linux_64</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9126&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cylc-ui-feedstock?branchName=master&jobName=linux&configuration=linux_64_" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9126&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cylc-ui-feedstock?branchName=main&jobName=linux&configuration=linux_64_" alt="variant">
                 </a>
               </td>
             </tr>
