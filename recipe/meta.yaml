@@ -1,5 +1,5 @@
 {% set name = "cylc-ui" %}
-{% set version = "1.0.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cylc/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}-dist.zip
-  sha256: f3c0193baefb12affb46cc98e47ef081d339022b6aa74b9b0a36391ce848c255 
+  sha256: bddf787f58043ce4ea78d1280f634bc3951d35f8244e716f2125e21d987b5fc6
   folder: cylc-ui
 
 build:
