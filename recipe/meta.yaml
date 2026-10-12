@@ -35,5 +35,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - jfrost-mo
     - hjoliver
     - oliver-sanders
